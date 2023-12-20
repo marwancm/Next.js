@@ -1,2 +1,2 @@
-# Next.js
-Project with Next.js and API
+# Hexashop
+Porject with next.js and api

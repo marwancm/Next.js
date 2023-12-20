@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+.box {
+  flex-grow: 1;
+  border: 1px solid #444;
+  border-radius: 10px;
+  transition: var(--main-transition) all  ease-in-out;
+  overflow: hidden;
+}
+.box:hover {
+  background-color: #111;
+  border: 1px solid #fff;
+}
+.imageContainer {
+  position: relative;
+  height: 200px;
+}
+.image {
+  object-fit: cover;
+}
+.content {
+  padding: 10px;
+}
+.title {
+  font-weight: 700;
+  color: var(  --main-color-alt);
+}
+
+.desc {
+  font-size: 18px;
+  color: #999;
+}

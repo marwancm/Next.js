@@ -1,0 +1,26 @@
+.container {
+  padding-top: var(--main-paddind-top);
+  padding-bottom: var(--main-paddind-bottom);
+  display: flex;
+  justify-content: space-between;
+}
+.social {
+  display: flex;
+  gap: 15px;
+}
+.icon {
+  cursor: pointer;
+  opacity: .6;
+  transition: opacity var(--main-transition) ease-in;
+}
+.icon:hover {
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .container {
+    gap: 15px;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+}
